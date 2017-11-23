@@ -1,0 +1,269 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,Tahoma;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+header ul{
+  margin: 0;
+  padding:0;
+}
+
+
+
+/* Header */
+header{
+  background:#203737;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:80px;
+  border-bottom:#17C543 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:17px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 30px;
+}
+
+header #branding h1{
+  margin:0;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+header #branding img{
+  position:absolute;
+  left:0;
+  top:0;
+  margin-left: 35px;
+  margin-top: 15px;
+
+}
+
+header nav{
+  float:right;
+  color:#1C1C1C;
+  padding-bottom: 10px;
+}
+
+header .highlight, header .current a{
+  color:#F8992F;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#D3D3D3;
+  font-weight:bold;
+}
+
+
+
+/* Home */
+#showcase{
+  min-height:550px;
+  background:url('../img/show.jpg') no-repeat 0 -350px;
+  text-align:center;
+  color:#FAFAFB;
+}
+
+#showcase h1{
+  margin-top:155px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+ #categories h3{
+   margin-top:30px;
+   margin-bottom: 30px;
+   vertical-align: middle;
+   width:700px;
+   height:40px;
+   background:#F8992F;
+   display : flex;
+   align-items : center;
+ }
+
+ #categories .categ{
+   width:65%;
+   text-align: justify;
+   padding: 10px;
+ }
+
+ .b_apply{
+   height:30px;
+   background:#21DD42;
+   border:0;
+   border-radius: 15px 50px;
+   padding-left: 20px;
+   padding-right:20px;
+   color:#FAFAFB;
+ }
+
+ .b_apply:hover {
+   box-shadow: 1px 5px 10px;
+   color: #A020F0;
+}
+
+ #categories .categ img{
+  margin-right: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+
+
+/*Newsletter */
+.b_submit{
+  height:38px;
+  background-color:#F8992F;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.b_submit:hover {background-color: #87510B;}
+
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#203737;
+}
+
+#newsletter form {
+  margin-bottom:20px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:300px;
+}
+
+/* About */
+#main{
+  min-height:768px;
+  background:url('../img/massage.jpg') no-repeat;
+  border-bottom:#A020F0 3px solid;
+}
+
+article#col_main{
+  float: left;
+  margin-top: 420px;
+  width: 40%;
+  text-align:justify;
+  color:#B5F3C0;
+}
+
+aside#col_side{
+  float: right;
+  margin-top: 285px;
+  width: 24%;
+  text-align:justify;
+  color:#B5F3C0;
+}
+
+/* Comment Section */
+#Comms{
+  padding:15px;
+  background:#FEFEFE;
+}
+
+#Comms .fb_header img{
+  padding: 20px;
+  margin-left: 110px;
+}
+
+#Comms .fb_com{
+  width:68%;
+  text-align: justify;
+  font-size: 11px;
+}
+
+#Comms .fb_com img{
+  float: left;
+  margin-left: 135px;
+  padding-bottom: : 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#Comms .fb_com  p{
+  margin-left: 200px;
+  padding-bottom: 20px;
+}
+
+
+/* Contact Us */
+#dev{
+  min-height:768px;
+  background:url('../img/devpic2.jpg') no-repeat;
+  border-bottom:#A020F0 3px solid;
+}
+
+article#devInfo,
+article#devInfo img{
+  text-align: center;
+  margin-top: 75px;
+  font-size: 16px;
+}
+article#devInfo p{
+  padding-bottom: : 5px;
+  color: #B9C08D;
+}
+
+#contact{
+  padding:20px;
+  color:#ffffff;
+  background:#203737;
+}
+
+#contact h1{
+  margin-top: 30px;
+  margin-bottom:  30px;
+  font-size: 28px;
+  color: #F8992F;
+}
+
+#contact form input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #CCC;       /* Gray border */
+    border-radius: 4px;           /* Rounded borders */
+    box-sizing: border-box;       /* So padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical              /* Allow vertically resize the textarea */
+}
+
+
+
+/* Footer */
+footer{
+  padding:5px;
+  padding-right: 30px;
+  color: #A020F0;
+  background-color:#203737;
+  text-align: right;
+}
